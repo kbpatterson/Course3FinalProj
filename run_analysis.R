@@ -85,4 +85,6 @@ data3<-arrange(data3, subj)
 meltedData<- melt(data3, c("subj","act"))
 meanData<- dcast(meltedData, subj+act~variable,mean)
 
+#write dataset over to a text file
+meanDatacopy<-write.table(meanData,file="./meanData.txt",row.names=FALSE)
 
