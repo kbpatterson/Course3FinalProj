@@ -19,7 +19,7 @@ The following dataset, meanData was collected from the following files, which ca
 -features.txt
 
 
-The X_train.txt and X_train.txt files were merged together, followed by an extraction of only the variables which contained measures on the mean and standard deviation for each measurement. 
+The X_train.txt and X_train.txt files were merged together, followed by an extraction of only the variables which contained measures on the mean and standard deviation for each measurement, including several variables that contain data on mean frequency. 
 All variables and activities have been given descriptive names, which can be found in the codebook.txt file.
 The meanData data frame is grouped by subject, starting with 1 and ending with 30, and for each subject, the mean of the measurements for each variable per activity is listed. 
 
